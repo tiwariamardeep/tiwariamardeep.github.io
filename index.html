@@ -1,62 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AgriFarm - Your Source for Agriculture</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Irrigation Workshop</title>
+  <link rel="icon" href="xyz.ico" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
+
+
 <body>
-    <header>
-        <h1>Welcome to AgriFarm</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#products">Our Products</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <!-- <img src="profile-photo.jpg" alt="Profile Photo" class="profile-photo"> -->
+        </div>
+        <div class="col-md-4">
+          <h1>Irrigation Workshop</h1>
+          
+          <p class="lead">Aspen Colarado</p>
+
+          <p> <font color="#008542"> <a href= "https://water.egr.msu.edu/members/">Michigan State University</a></font></p> 
+          <div class="social-media">
+            <a href="https://www.linkedin.com/in/yadupokhrel/" target="_blank" class="btn btn-primary"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/PokhrelYadu" target="_blank" class="btn btn-primary"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/yadupokhrel" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i></a>
+            <a href="mailto:ypokhrel@msu.edu" target="_blank" class="btn btn-primary"><i class="fas fa-envelope big-icon"></i></a>
+            <a href="https://scholar.google.com/citations?user=Oa7KPm4AAAAJ&hl=en" target="_blank" rel=noopener class="btn btn-primary"><i class="fas fa-graduation-cap big-icon"></i></a>
+            <!-- <a class="btn btn-outline-primary btn-page-header btn-sm" href=https://twitter.com/amardeepttiwari target=_blank rel=noopener><i class="fab fa-twitter mr-1"></i>Follow</a> -->
+            <!-- <a class="btn btn-outline-primary btn-page-header btn-sm" href=https://scholar.google.co.in/citations?user=Tw3-DoYAAAAJ&hl=en target=_blank rel=noopener><i class="fas fa-graduation-cap"></i>Google scholar</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#research">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#joinus">Join Us</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" style="margin-top: -15px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Home</h2>
+          <p>Human activities are significantly altering the Earth's environment, especially freshwater systems. This includes changes in natural flow patterns and the depletion of groundwater resources. Climate change adds to these challenges. My research employs quantitative modeling to integrate climate, societal, and agricultural factors for assessing water resources and environmental impacts. Over time, my research has become more interdisciplinary, involving stakeholders, socio-economic dimensions, and data science. The focus is on addressing complex issues related to water, climate change, energy, and infrastructure resilience. This approach aims to understand these interactions better and advance water cycle studies.</p>
+            <br>
+            <p><img src="Aspen.jpeg" class="img-responsive" width="80%" style="float: left" /></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="team" style="margin-top: -60px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Team</h2>
+        <ul>
+          <!-- <strong>PhD Work</strong>: Development of hydrologic outlook in India.</li> -->
+          <!-- <li><img src="PhDWork.png" alt="Image" height="700px" width="1200px"></li> -->
+          <li><img src="team_msu.jpg" alt="Image" height="333x" width="500px"></li>
+          <br>
+          <br>
+
+        <div class="row">
+            <div class="col-sm-6 clearfix">
+            <p><img src="https://www.egr.msu.edu/sites/default/files/styles/profile_page_image/public/profile/profileimage/pokhrel_2014_msu_1-3.jpg?itok=gHeDKs8H" class="img-responsive" width="30%" style="float: left" /></p>
+
+            <ul style="overflow: hidden">
+            <li><h4>Yadu Pokhrel</h4></li>
+            <li>PI: Associate professor (Apr 2021- )</li>
+            <li>Hydrology and Water Resources</li>
+            <li>mail: ypokhrel [at] msu.edu</li>
+            <li><a href="https://water.egr.msu.edu/">Personal Webpage</a></li>
+            <br>
+            <a href="https://scholar.google.com/citations?user=Oa7KPm4AAAAJ&hl=en" target="_blank" rel="noopener" class="btn btn-primary"><i class="fas fa-graduation-cap big-icon"></i></a>
+            <a href="https://twitter.com/PokhrelYadu" target="_blank" class="btn btn-primary"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/yadupokhrel" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i></a>
             </ul>
-        </nav>
-    </header>
-
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Our current research projects are on the following (including but not limited to) broad areas:</p>
-            <p>.</p>
-            <p>-Advancing hydrological and Earth system modeling by accounting for water management (e.g., irrigation, reservoir operation, groundwater pumping, environmental flows, and nutrient flows)</p>
-            <p>-Sustainable Water and Nutrient Management in Stressed Agro-Ecosystems</p>
-            <p>-Climate Change, Droughts, and Environmental Sustainability</p>
-            <p>-Climate Change, Water, Energy, and Transportation System Interdependencies for Resilient Urban Futures</p>
-            <p>-Sustainable Hydropower Development (Amazon and Mekong basins) and Dam Safety under Future Extremes</p>
-            <p>-Large-Scale Climate-Irrigation-Groundwater Interactions within the Earth system.</p>
-    </section>
-
-    <section id="products">
-        <h2>Our Products</h2>
-        <div class="product">
-            <img src="Taiwan_Typhoon_Nari_2001.gif" alt="Product 1">
-            <h3>Product 1</h3>
-            <p>Flooding due to Typhoon Nari (2001) : 15th September- 20th September.</p>
         </div>
-        <div class="product">
-            <img src="Taiwan_Typhoon_Morakot_2009.gif" alt="Product 2">
-            <h3>Product 2</h3>
-            <p>Flooding due to Typhoon Morakot (2009) : 6th August- 13th August.</p>
+
+            <div class="col-sm-6 clearfix">
+            <p><img src="profile-photo.jpg" class="img-responsive" width="30%" style="float: left" /></p>
+
+            <ul style="overflow: hidden">
+            <li><h4>Amar Deep Tiwari</h4></li>
+            <li>Postdoc (Apr 2022- )</li>
+            <li>Hydrology and Water Resources</li>
+            <li>mail: tiwaria6 [at] msu.edu</li>
+            <li><a href="https://water.egr.msu.edu/">Personal Webpage</a></li>
+            <br>
+            <a href="https://scholar.google.com/citations?user=Oa7KPm4AAAAJ&hl=en" target="_blank" rel="noopener" class="btn btn-primary"><i class="fas fa-graduation-cap big-icon"></i></a>
+            <a href="https://twitter.com/PokhrelYadu" target="_blank" class="btn btn-primary"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/yadupokhrel" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i></a>
+            </ul>
+            </div>
         </div>
-        <!-- Add more product sections as needed -->
+
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section id="research" style="margin-top: -60px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Research</h2>
+        <ul>
+          <!-- <strong>PhD Work</strong>: Development of hydrologic outlook in India.</li> -->
+          <!-- <li><img src="PhDWork.png" alt="Image" height="700px" width="1200px"></li> -->
+
+          <li>Human activities are significantly altering the Earth's environment, especially freshwater systems. This includes changes in natural flow patterns and the depletion of groundwater resources. Climate change adds to these challenges. My research employs quantitative modeling to integrate climate, societal, and agricultural factors for assessing water resources and environmental impacts. Over time, my research has become more interdisciplinary, involving stakeholders, socio-economic dimensions, and data science. The focus is on addressing complex issues related to water, climate change, energy, and infrastructure resilience. This approach aims to understand these interactions better and advance water cycle studies.</li>
+          <br>
+          <li><strong>Models: </strong></li>
+          <li><strong>Groundwater-Surface water-Flood routing model (LeafHYDRO-Flood): </strong></li>
+          <li><img src="https://water.egr.msu.edu/docs/2014/10/LHF.png" alt="Image" height="550px" width="800px"></li>
+          <br>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="publications" style="margin-top: -60px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <h2>Publications</h2>
+  <ol>
+    
+    <li>McDermid, S., Nocco, M., Lawston-Parker, P., Keune, J., Pokhrel, Y. et al. (2023). Irrigation in the Earth system, <a href="https://www.nature.com/articles/s43017-023-00438-5">Nat Rev Earth Environ</a>, 4, 435–453.</li>
+    <li><strong>Tiwari, A. D.</strong>, Pokhrel, Y., Kramer, D., Akhter, T., Tang, Q., Liu, J., Qi, J., Loc, H. H. and Lakshmi, V. (2023). A synthesis of hydroclimatic, ecological, and socioeconomic data for transdisciplinary research in the Mekong. <a href="https://doi.org/10.1038/s41597-023-02193-0">Scientific Data</a>, 10(1), 283.</li>
+    <li>Mishra, V., <strong>Tiwari, A. D.</strong>, and Kumar, R. (2022). Warming climate and ENSO variability enhance the risk of sequential extremes in India, <a href="https://doi.org/10.1016/j.oneear.2022.10.013">One Earth</a>, 5(11), 1250-1259.</li>
+    <li>Pokhrel, Y., & <strong>Tiwari, A. D.</strong> (2022). Re-operating dams in the Mekong, <a href="https://doi.org/10.1038/s41893-022-00998-2">Nature Sustainability</a>, 5, 1005-1006.</li>
+    <li>Pandey, D., <strong>Tiwari, A. D.</strong>, and Mishra, V. (2022), On the occurrence of the worst flood in Mahanadi River Basin under the warming climate, <a href="https://doi.org/10.1016/j.wace.2022.100520">Weather and Climate Extremes</a>, 100520.</li>
+    <li>Mishra, V., <strong>Tiwari, A. D.</strong>, and Kumar, R. (2022). A framework to incorporate spatiotemporal variability of rainfall extremes in summer monsoon declaration in India, <a href="http://dx.doi.org/10.1088/1748-9326/ac8c5c">Environmental Research Letters</a>, 17(9), 094039.</li>
+    <li><strong>Tiwari, A. D.</strong>, & Mishra, V. (2022). Sub-seasonal prediction of drought and streamflow anomalies for water management in India. <a href="http://dx.doi.org/10.1029/2021JD035737">Journal of Geophysical Research: Atmospheres</a>, 127, e2021JD035737.</li>
+    <li>Kushwaha, A. P., <strong>Tiwari, A. D.</strong>, Dangar, S., Shah, H. L., Mahto, S. S., and Mishra., V. (2021). Multimodel assessment of water budget in Indian sub-continental river basins, <a href="https://doi.org/10.1016/j.jhydrol.2021.126977">Journal of Hydrology</a>, 603, 126977.</li>
+    <li><strong>Tiwari, A. D.</strong>, Mukhopadhyay, P., and Mishra, V. (2021). Influence of bias correction of meteorological and streamflow forecast on hydrological prediction in India, <a href="http://dx.doi.org/10.1175/JHM-D-20-0235.1">Journal of Hydrometeorology</a>, 23(7), 1171-1192.</li>
+    <li>Mishra, V., Bhatia U., and <strong>Tiwari, A. D.</strong> (2020). Bias-corrected climate projections for South Asia from Coupled Model Intercomparison Project-6, <a href="https://www.nature.com/articles/s41597-020-00681-1">Scientific Data</a>, 7(1), 1-13.</li>
+    <li>Mishra, V., <strong>Tiwari, A. D.</strong>, Aadhar, S., Shah, R., Xiao, M., Pai, D. S., and Lettenmaier, D. (2019). Drought and famine in India, 1870-2016, <a href="http://dx.doi.org/10.1029/2018GL081477">Geophysical Research Letters</a>, 46(4), 2075-2083.</li>
+    <li>Pattanaik, D. R., Sahai, A. K., Mandal, R., Muralikrishna, R. P., Day, A., Chattopadhyay, R., Joseph, S., <strong>Tiwari, A. D.</strong>, and Mishra, V. (2019). Evolution of operational extended range forecast system of IMD: Prospects of its applications in different sectors, <a href="http://dx.doi.org/10.54302/mausam.v70i2.170">Mausam</a>, 70(2), 233-264.</li>
+    <li><strong>Tiwari, A. D.</strong>, and Mishra, V. (2019). Prediction of reservoir storage anomalies in India, <a href="http://dx.doi.org/10.1029/2019JD030525">Journal of Geophysical Research: Atmospheres</a>, 124(7), 3822-3838.</li>
+    <li>Mishra, V., Aadhar, S., Shah, H. L., Kumar, R., Pattanaik, D. R., and <strong>Tiwari, A. D.</strong> (2018). The Kerala flood of 2018: combined impact of extreme rainfall and reservoir storage, <a href="http://dx.doi.org/10.5194/hess-2018-480">Hydrology and Earth System Sciences Discussions</a>, 1-13.</li>
+  </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <section id="joinus" style="margin-top: -60px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Join us</h2>
+                    <ul>
+          <!-- <strong>PhD Work</strong>: Development of hydrologic outlook in India.</li> -->
+          <!-- <li><img src="PhDWork.png" alt="Image" height="700px" width="1200px"></li> -->
+                        <li><strong>Graduate Student Opportunity: </strong></li>
+                        <li>We are looking for enthusiastic and highly motivated PhD students to join our group in starting in the coming Spring or Fall semester. Students should have bachelor and masters degrees in Civil Engineering, Environmental Engineering, Geoscience or a closely related field, and an interest to work in the area of large-scale hydrological modeling, climate change, and water resources and agricultural sustainability. For more information, please feel free to check our research areas, current projects, recent publications, and also the admission requirements.</li>
+                        <br>
+                        <li>Ideal candidates are expected to have strong background in hydrology and computational modeling and an expertise in data analysis and computer programming using Fortran, Python or similar programming languages. Strong past academic record (undergraduate and MS GPA) and test (GRE, TOEFL/IELTS) scores are expected.</li>
+                        <br>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>If you have any questions or inquiries, please don't hesitate to get in touch with us:</p>
-        <address>
-            Email: <a href="mailto:info@agrifarm.com">info@agrifarm.com</a><br>
-            Phone: <a href="tel:+1234567890">123-456-7890</a><br>
-            Address: 123 Farm Road, Agricultureville, USA
-        </address>
+
+
+        <section id="update" style="margin-top: -60px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Updates</h2>
+                    <ul>
+          <!-- <strong>PhD Work</strong>: Development of hydrologic outlook in India.</li> -->
+          <!-- <li><img src="PhDWork.png" alt="Image" height="700px" width="1200px"></li> -->
+                        <p style="text-align:center"><a class="twitter-timeline" href="https://twitter.com/PokhrelYadu" data-width="500" data-height="600">Tweets by PokhrelYadu</a></p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <br>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        <p>&copy; 2023 AgriFarm. All rights reserved.</p>
-    </footer>
-</body>
+
+  <!-- <section id="expertise" style="margin-top: -60px;"> -->
+    <!-- <div class="container"> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col-md-12"> -->
+          <!-- <h2>Technical Expertise</h2> -->
+          <!-- <ul> -->
+            <!-- <li><strong>Proficient in</strong>: Hydrologic and hydrodynamic modeling (VIC, SWAT, CLM, and CaMa-Flood), Shell, Python, MATLAB, NetCDF Operator, and ArcGIS.</li> -->
+            <!-- <li><strong>Knowledgeable in</strong>: HEC-RAS, HEC-HMS, Storm Water Management Model (SWMM), Image analysis (ENVI)</li> -->
+          <!-- </ul> -->
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+  <!-- </section> -->
+
+
+<section id="expertise" style="margin-top: -60px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul>
+          <li>
+            <div class="map-container">
+              <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=C1EjFrFaVC0C2uIcrkgSe6xlqOU1eB1r-LCEWM-vA2A"></script>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .map-container {
+    width: 200px;
+    height: 200px;
+  }
+</style>
+
+
+
+  <!-- </ul>
+  <!-- <p style="text-align:center"><a class="twitter-timeline" href="https://twitter.com/AmarDeepTTiwari" data-width="500" data-height="354">Tweets by AmarDeepTTiwari</a></p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"><
+
+  <!-- Bootstrap and Font Awesome Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+
+<footer>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <span class="nav-link">Copyright © 2023 | Yadu Pokhrel | Phone: +1 (517) 355-0250 | Email: ypokhrel@msu.edu</span>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</footer>
+
 </html>
