@@ -19,6 +19,13 @@ body {
   .social-media .btn {
     margin-right: 10px;
   }
+
+    /* Add this rule to change the color of social media icons to grey */
+  .social-media .btn i {
+    color: grey;
+  }
+
+
   
   section {
     padding: 80px 0;
