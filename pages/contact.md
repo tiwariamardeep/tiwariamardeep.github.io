@@ -6,4 +6,4 @@ subheadline         : "Contact Form"
 teaser              : "Get in touch with me? Use the contact form."
 permalink           : "/contact/"
 ---
-Kindly email me for any query at [email](tiwaria6@msu.edu)
+Kindly email me for any query at [tiwaria6@msu.edu](tiwaria6@msu.edu)
